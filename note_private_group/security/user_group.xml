@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+        <record id="private_note_group" model="res.groups">
+            <field name="name">Private Notes</field>
+            <field name="comment">Group Private Notes</field>
+        </record>
+    </data>
+
+</odoo>
