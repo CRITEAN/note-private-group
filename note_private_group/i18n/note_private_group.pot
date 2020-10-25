@@ -18,23 +18,23 @@ msgstr ""
 #. module: note_private_group
 #: model:ir.model,name:note_private_group.model_mail_thread
 msgid "Email Thread"
-msgstr "Hilo de mensajes"
+msgstr ""
 
 #. module: note_private_group
 #: model:res.groups,comment:note_private_group.private_note_group
 msgid "Group Private Notes"
-msgstr "Grupo Privado de Notas"
+msgstr ""
 
 #. module: note_private_group
 #: model:ir.model,name:note_private_group.model_mail_message
 msgid "Message"
-msgstr "Mensaje"
+msgstr ""
 
 #. module: note_private_group
 #: model:ir.model.fields,field_description:note_private_group.field_mail_mail__is_private
 #: model:ir.model.fields,field_description:note_private_group.field_mail_message__is_private
 msgid "Message private"
-msgstr "Mensaje privado"
+msgstr ""
 
 #. module: note_private_group
 #: model:ir.model.fields,field_description:note_private_group.field_account_analytic_account__message_ids
@@ -51,9 +51,9 @@ msgstr "Mensaje privado"
 #: model:ir.model.fields,field_description:note_private_group.field_res_partner__message_ids
 #: model:ir.model.fields,field_description:note_private_group.field_res_users__message_ids
 msgid "Messages"
-msgstr "Mensajes"
+msgstr ""
 
 #. module: note_private_group
 #: model:res.groups,name:note_private_group.private_note_group
 msgid "Private Notes"
-msgstr "Notas Privadas"
+msgstr ""
