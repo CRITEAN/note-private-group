@@ -19,6 +19,11 @@ class Message(models.Model):
     @api.depends('author_id')
     def _get_private(self):
         for message in self:
-            message.is_private = self.env['res.users'].search(
-                [('partner_id.id', '=', message.author_id[0].id)]).has_group(
-                'note_private_group.private_note_group')
+            if message.author_id:
+                user = self.env['res.users'].search([('partner_id.id', '=', message.author_id[0].id)])
+                if user:
+                    message.is_private = user.has_group('note_private_group.private_note_group')
+                else:
+                    message.is_private = False
+            else:
+                message.is_private = False
