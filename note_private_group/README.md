@@ -1,6 +1,6 @@
-# Chatter Private Group
+# Note Private Group
 
-This is a readme of Chatter Private Group project.
+This is a readme of Note Private Group project.
 
 ## Odoo version
 
