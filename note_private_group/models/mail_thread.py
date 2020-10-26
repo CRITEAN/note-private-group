@@ -21,7 +21,7 @@ class MailThread(models.AbstractModel):
 
     @api.model
     def _domain_message(self):
-        if self.env.user.has_group('note_private_group.specialist_group'):
+        if self.env.user.has_group('note_private_group.private_note_group'):
             return [('message_type', '!=', 'user_notification')]
         return [('message_type', '!=', 'user_notification'), ('is_private', '=', False)]
 
